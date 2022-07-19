@@ -1,0 +1,23 @@
+.button{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(126, 83, 167);
+    box-shadow: 10px 10px 20px 20px rgba(0, 0, 0, 0.436);
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.button:hover{
+    background-color:rgb(91, 49, 130);
+    box-shadow: -10px -10px 20px 20px rgba(0, 0, 0, 0.436);
+}
+
+
+.button:active{
+    background-color:rgb(50, 30, 69);
+}
